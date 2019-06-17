@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app__content {
+  padding: 40px 0;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #cecece;
+}
+.app__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+}
+.pagination .button {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #cecece;
+  width: 38px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  color: black;
+  transition: background 0.3s ease;
+}
+.pagination .button:hover:not(.button_non-active) {
+  background: #e2f6ff;
+}
+.pagination .button_non-active {
+  outline: 0;
+  cursor: default;
+}
+.pagination .button[disabled] {
+  color: #bab9b9;
+  background-color: #f0f0f0;
+}
+.pagination .button_selected span {
+  color: #017aca;
+}
+
+.contacts {
+  min-height: 206px;
+  width: 100%;
+  border: 1px solid #cecece;
+  margin: 10px 0;
+}
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #cecece;
+}
+.contacts__item:last-child {
+  border-bottom: 0;
+}
+.contacts__item-content {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__item-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts .name {
+  width: 375px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.contacts .number {
+  width: 130px;
+  margin-left: 10px;
+}
+.contacts .button {
+  cursor: pointer;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+.contacts .button:hover {
+  color: #017aca;
+}
+
+.panel {
+  margin: 10px 0;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.panel__content {
+  display: flex;
+}
+.panel__button {
+  height: 42px;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #cecece;
+  padding: 5px 10px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+.panel__button:hover {
+  background: #e2f6ff;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.input input {
+  border: 1px solid #cecece;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.input_error input {
+  border: 1px solid #ff3232;
+}
+
+.input_type-name {
+  width: 375px;
+  margin-right: 20px;
+}
+
+.input_type-phone {
+  width: 130px;
+}
+
+.error {
+  font-size: 14px;
+  color: #ff3232;
+  margin-top: 5px;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=app.css.map */
