@@ -1,11 +1,10 @@
-**Мини-приложение “список контактов”.**
+**The web-application: “contact book”.**
 
-Приложение представляет из себя сортируемый пагинированный список контактов с возможностью добавления пользователем новых, удаления и редактирования контактов.
+The application is a sortable paginated contact list. The application has the ability to add a new contact, delete or edit.
 
+**start:** 
 
-**запуск:** 
-
-1) Клонируете данный репозиторий
+1) clone
 2) yarn
 3) yarn start
 
